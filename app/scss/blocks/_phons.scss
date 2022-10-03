@@ -1,0 +1,53 @@
+.phons {
+    padding: 20px 0 0 0;
+    width: 100%;
+    min-height: 90px;
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__items {
+        display: flex;
+        a { 
+            color: #000;
+            text-decoration: none;
+            &:hover {
+                padding-left: 2px;
+                text-decoration: underline;
+                color: rgb(65, 88, 204);
+                transition: all .4s;
+            }
+        }
+        img {
+            border-radius: 3px;
+        }
+    }
+    &__inner {
+        margin-left: 10px;
+    }
+    &__country {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.286;
+            color: rgb(36, 36, 36);
+    }
+    &__phone {
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 1.386;
+        color: rgb(36, 36, 36);
+    }
+    &__email {
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 1.386;
+        color: rgb(36, 36, 36);
+    }
+    .country-office {
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 1.386;
+        color: rgb(36, 36, 36);
+    }
+}

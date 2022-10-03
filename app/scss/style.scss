@@ -1,0 +1,35 @@
+//Import Libs
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/bootstrap-grid.min';
+@import 'libs/fonts';
+
+//Styles
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-display: swap;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+}
+    
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+//Import Blocks
+
+//Import Base
+@import 'blocks/analytics';
+@import 'blocks/slider';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/phons';
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/media';
