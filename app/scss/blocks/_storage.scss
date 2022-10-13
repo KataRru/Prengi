@@ -1,0 +1,109 @@
+.storage {
+    width: 100%;
+    position: relative;
+    padding-top: 80px;
+    min-height: 600px;
+    &__title {
+        position: relative;
+        top: 80px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        z-index: 1;
+    }
+    &__item {
+        position: relative;
+        top: -71px;
+        display: flex;
+        justify-content: center;
+    }
+    &__items {
+        width: 100%;
+        &-title {
+            font-size: 30px;
+            font-weight: 700;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            line-height: 0.733;
+        }
+        &-dscr {
+            padding-top: 20px;
+            font-size: 18px;
+            font-weight: 300;
+            color: rgb(255, 255, 255);
+            line-height: 1.444;
+        }
+    }
+    &__text {
+        &-one {
+            position: relative;
+            top: -50%;
+            transform: translateY(50%);
+            margin-top: -30px;
+            right: 80px;
+            float: right;
+            text-align: right;
+            z-index: 5;
+            &:before {
+                content:'';
+                position: absolute;
+                top: -30px;
+                right: -30px;
+                width: 150px;
+                height: 150px;
+                background-color: #378397;
+                opacity: .6;
+                z-index: -1;
+            }
+        }
+        &-two {
+            position: relative;
+            top: -50%;
+            transform: translateY(50%);
+            margin-top: -30px;
+            left: 80px;
+            float: left;
+            z-index: 5;
+            &:before {
+                content:'';
+                position: absolute;
+                top: -30px;
+                left: -30px;
+                width: 150px;
+                height: 150px;
+                background-color: #378397;
+                opacity: .6;
+                z-index: -1;
+            }
+        }
+    }
+    &__access {
+        text-align: center;
+        &-title {
+            padding-top: 70px;
+            font-size: 30px;
+            font-weight: 300;
+            color: rgb(57, 57, 57);
+            line-height: 1.2;
+            text-align: center;          
+        }
+        &-btn {
+            margin-top: 30px;
+            padding: 12px 22px;
+            background-color: #3392ac;
+            border: none;
+            border-radius: 5px;
+            text-transform: uppercase;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 1.875;
+            &:hover {
+                transition: all .5s;
+                box-shadow: 3px 3px 12px #000;
+            }
+        }
+    }
+}

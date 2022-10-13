@@ -12,7 +12,7 @@
     font-display: swap;
 }
 
-ul, li {
+ul, li, h1, h2, h3, h4, h5, h6 {
     padding: 0;
     margin: 0;
 }
@@ -25,8 +25,11 @@ ul, li {
 //Import Blocks
 
 //Import Base
+@import 'blocks/footer';
+@import 'blocks/storage';
+@import 'blocks/benefits';
 @import 'blocks/analytics';
-@import 'blocks/slider';
+@import 'blocks/solutions';
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/phons';

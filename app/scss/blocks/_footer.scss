@@ -1,0 +1,75 @@
+.footer {
+    margin-top: 100px;
+    min-height: 550px;
+    background-color: #378397;
+    &__item {
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        column-gap: 60px;
+    }
+    &__blocks {
+        width: 450px;
+        &:nth-child(2) {
+            width: 360px;
+        }
+        &:nth-child(3) {
+            width: 150px;
+        }
+        &:nth-child(4) {
+            width: 150px;
+        }
+        &-title {
+            padding-bottom: 5px;
+            font-size: 16px;
+            color: rgb(255, 255, 255);
+            font-weight: 700;
+            line-height: 1.188;
+            text-align: left;       
+        }
+        &-link {
+            margin: 3px 0;
+            a {
+                font-size: 16px;
+                font-weight: 300;
+                color: rgb(255, 255, 255);
+                line-height: 1.188;
+                text-align: left;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }      
+        } 
+    }
+    &__img {
+        padding: 10px 0 10px 0;
+    }
+    &__text {
+        padding: 10px 0 0 0;
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+        font-weight: 300;
+        line-height: 1.188;
+        text-align: left;   
+    }
+    hr {
+        margin: 30px 0;
+        color: #fff;
+    }
+    &__police {
+        font-size: 13px;
+        font-weight: 400;
+        color: rgb(255, 255, 255);
+        line-height: 1.308;          
+        text-align: center;
+        a {
+            color: #fff;
+            margin: 0 0 0 5px;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
