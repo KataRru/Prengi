@@ -1,0 +1,52 @@
+.policy {
+    width: 1400px;
+    padding: 30px 150px;
+    background-color: #ddd;
+    margin: 0 auto;
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: 1px 10px 20px;
+    &__title {
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 50px;
+        font-family: 'Roboto', sans-serif;
+        &::marker {
+            font-size: 20px;
+        }
+        &:hover {
+            transform: scale(1.01);
+        }
+    }
+    h2 {
+        font-size: 25px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+    }
+    p {
+        margin-top: 25px;
+        font-family: 'Roboto', sans-serif;
+    }
+    &__path {    
+        &-two {
+            margin-top: 60px;
+        }
+        &-tree {
+            margin-top: 60px;
+        }
+        &-four {
+            margin-top: 60px;
+        }
+        &-five {
+            margin-top: 60px;
+        }
+        &-six {
+            margin-top: 60px;
+        }
+        &-seven {
+            margin-top: 60px;
+        }
+        &-eight {
+            margin-top: 60px;
+        }
+    }
+}   

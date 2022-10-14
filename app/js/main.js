@@ -11,10 +11,12 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('.promo__slides').slick({
-        speed: 1000,
+        speed: 2000,
         arrows: true,
         slidesToShow: 1,
         dots: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
         prevArrow: '<button type="button" class="slick-prev"><img src="img/promo/prev.png"></button>',
         nextArrow: '<button type="button" class="slick-next"><img src="img/promo/next.png"></button>',
     });

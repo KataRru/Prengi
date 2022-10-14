@@ -25,7 +25,9 @@ ul, li, h1, h2, h3, h4, h5, h6 {
 //Import Blocks
 
 //Import Base
+@import 'blocks/policy';
 @import 'blocks/footer';
+@import 'blocks/access';
 @import 'blocks/storage';
 @import 'blocks/benefits';
 @import 'blocks/analytics';
