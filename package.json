@@ -9,6 +9,7 @@
   "author": "Vlad",
   "license": "ISC",
   "dependencies": {
+    "animate.css": "^4.1.1",
     "gulp": "^4.0.2",
     "Jquery": "npm:jquery@^3.6.1"
   },

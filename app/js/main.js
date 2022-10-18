@@ -20,4 +20,6 @@ $(document).ready(function() {
         prevArrow: '<button type="button" class="slick-prev"><img src="img/promo/prev.png"></button>',
         nextArrow: '<button type="button" class="slick-next"><img src="img/promo/next.png"></button>',
     });
+
+    new WOW().init();
 });
